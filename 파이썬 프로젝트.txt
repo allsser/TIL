@@ -1,0 +1,4 @@
+-파이썬 가상환경 venv 만듬
+- 가상환경 들어가는 코드
+$ source ~/venv/Scripts/activate
+-TIL 하루하루 정리하기
