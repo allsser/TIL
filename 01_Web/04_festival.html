@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>festival</title>
+  <style>
+    td {
+      border:1px solid darkgray;
+    }
+  </style>
+</head>
+<body>
+  <!-- table + semantic -->
+  <!-- 
+    summary : 스크린 리더로 접근하는 분들에게 테이블을 어떻게 접근해야 하는지 안내
+    but, HTML5에서는 summary 속성 대신 caption 요소의 내용을 더 이해하기 쉽도록 작성한다.
+  -->
+  <table summary="락 페스티벌 시간표이며 내부 소극장 외부 잔디마당과 대공연장 총 3곳에서 10시부터 17시까지 진행됩니다.">
+    <!-- caption : -->
+    <caption>
+        <h1>2019 타임테이블</h1>
+    </caption>
+    <tbody>
+
+      <tr>
+        <td style="text-align:center">TIME</td>
+        <td style="text-align:center">INDOOR</td>
+        <td colspan="2" style="text-align:center">OUTDOOR</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>소극장</td>
+        <td>잔디마당</td>
+        <td>대공영장</td>
+      </tr>
+      <tr>
+        <td>10:00</td>
+        <td rowspan="2">안녕하신가영</td>
+        <td></td>
+        <td>10CM</td>
+      </tr>
+      <tr>
+        <td>13:00</td>
+        <td rowspan="2">선우정아</td>
+        <td rowspan="2">참깨와 솜사탕</td>
+      </tr>
+      <tr>
+        <td>15:00</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>17:00</td>
+        <td>크러쉬</td>
+        <td></td>
+        <td>폴킴</td>
+      </tr>
+      <tfoot>
+        <!-- tfoot : 테이블 하단 요약부분을 그룹화! 한 번만 선언-->
+      </tfoot>
+    </tbody>
+  </table>
+</body>
+</html>

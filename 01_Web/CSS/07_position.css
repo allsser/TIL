@@ -1,0 +1,25 @@
+body{
+  height: 10000px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.parent {
+  background-color: yellow;
+}
+
+.absolute {
+  position: absolute;
+  top:30px;
+  left:70px;
+}
+
+.relative {
+  position: relative;
+}
