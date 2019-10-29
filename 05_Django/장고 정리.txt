@@ -21,9 +21,16 @@ python manage.py runserver 입력해서 서버를 동작할 수 있다.
 python manage.py startapp pages
 
 config->settings.py에서 INSTAKKED_APPS에 만든 애플리케이션인 pages를 저장해 준다.
+그리고 LANGUAGE_CODE = 'ko-kr'설정과 TIME_ZONE = 'Asia/Seoul'로 설정해 준다
 
 views.py에 def 로 정의해준다. 첫 번째 인자는 반드시 request를 쓴다.
 
 pages 폴더에 templates 폴더를 새로 만들어서 .html파일이 들어간다. 화면에 보인다.
 
 urls.py에 경로를 지정해 준다.
+
+해당 경로로 가서 이 명령어를 치면 pip list가 text형태로 저장된다.
+pip freeze > requirements.txt
+
+pip install -r requirements.txt를 하면 한번에 pip list(패키지)를 설치한다.
+협업하기 좋다
