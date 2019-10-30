@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 class="text-center">Articles</h1>
+<a href="/articles/new/">[NEW]</a>
+<hr>
+{% for article in articles %}
+  <p>
+    [{{ article.pk }}] {{ article.title }}
+  </p>
+  <a href="/articles/{{ article.pk }}/">[DERAIL]</a>
+  <hr>
+{% endfor %}
+{% endblock body %}
