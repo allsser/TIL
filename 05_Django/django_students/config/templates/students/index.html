@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 class="text-center">Students</h1>
+
+<a href="{% url 'students:new' %}">[NEW]</a>
+<hr>
+{% for student in students %}
+  <p>
+    [{{ student.pk }}] 이름:{{ student.name }} | 나이:{{ student.age}}
+  </p>
+  <a href="{% url 'students:detail' student.pk %}">[DERAIL]</a>
+  <hr>
+{% endfor %}
+{% endblock body %}
