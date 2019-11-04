@@ -1,0 +1,86 @@
+[
+    {
+        "pk": 1,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "말모이",
+            "title_en": "MAL·MO·E: The Secret Mission",
+            "audience": 2224910,
+            "open_date": 20190109,
+            "genre": "드라마",
+            "watch_grade": "12세이상관람가",
+            "score": "9.04",
+            "poster_url": "https://movie-phinf.pstatic.net/20181227_80/1545901137289EGbWK_JPEG/movie_image.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "내안의 그놈",
+            "title_en": "The Dude in Me",
+            "audience": 1597263,
+            "open_date": 20190109,
+            "genre": "판타지",
+            "watch_grade": "15세이상관람가",
+            "score": "8.69",
+            "poster_url": "https://movie-phinf.pstatic.net/20190111_8/1547187739117rx7uW_JPEG/movie_image.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "글래스",
+            "title_en": "Glass",
+            "audience": 339707,
+            "open_date": 20190117,
+            "genre": "드라마",
+            "watch_grade": "15세이상관람가",
+            "score": "7.69",
+            "poster_url": "https://movie-phinf.pstatic.net/20181227_126/1545900402100CiQHx_JPEG/movie_image.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "주먹왕 랄프 2: 인터넷 속으로",
+            "title_en": "Ralph Breaks the Internet",
+            "audience": 1606967,
+            "open_date": 20190103,
+            "genre": "애니메이션",
+            "watch_grade": "전체관람가",
+            "score": "8.76",
+            "poster_url": "https://movie-phinf.pstatic.net/20181204_287/1543888062606NHMh7_JPEG/movie_image.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "언더독",
+            "title_en": "Underdog",
+            "audience": 122479,
+            "open_date": 20190116,
+            "genre": "애니메이션",
+            "watch_grade": "전체관람가",
+            "score": "9.49",
+            "poster_url": "https://movie-phinf.pstatic.net/20181224_250/1545613244716iYHTg_JPEG/movie_image.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "movies.Movie",
+        "fields": {
+            "title": "아쿠아맨",
+            "title_en": "AQUAMAN",
+            "audience": 5019236,
+            "open_date": 20181219,
+            "genre": "액션",
+            "watch_grade": "12세이상관람가",
+            "score": "8.39",
+            "poster_url": "https://movie-phinf.pstatic.net/20181210_126/1544403103928nczJs_JPEG/movie_image.jpg"
+        }
+    }
+]

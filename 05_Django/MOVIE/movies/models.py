@@ -5,7 +5,7 @@ class Movie(models.Model):
   title = models.CharField(max_length=40)     # 영화명
   title_en = models.CharField(max_length=40)  # 영화명(영문)
   audience = models.IntegerField()            # 누적관객수
-  open_date = models.DateField()              # 개봉일
+  open_date = models.IntegerField()              # 개봉일
   genre = models.TextField()                  # 장르
   watch_grade = models.TextField()            # 관람등급
   score = models.FloatField()                 # 평점
